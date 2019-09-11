@@ -1,0 +1,7 @@
+body {font-family: 'Roboto', sans-serif;}
+h1 {font-variant: small-caps;}
+a:hover {color: red;}
+h2 {font-style: italic;}
+.name {
+    font-size: 1.2em;
+}
