@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="https://classes.codingbootcamp.cz/assets/classes/request-visualization/script.php">
+        <input type="submit" name="submit" value="Save">
+        <input type="submit" name="submit" value="Delete">
+        <input type="hidden" name="foo" value="bar">
+        <input type="text" name="my_text" value="" placeholder="Insert text here">
+       
+        <label for ="dotaznik_dotay">chces</label>
+        <input type="hidden" name="dotaznik" value="no">
+        <input type="checkbox" name="dotaznik" id="dotaznik_dotay" value="yes">
+
+        <label for="id_male">muz</label>
+        <input type="radio" name="gender" value="male" id="id_male">
+        <input type="radio" name="gender" value="women">
+        <input type="radio" name="gender" value="it">
+
+        <select name="nation" id="">
+            <option value="cz">Czech</option>
+            <option value="uk">Britain</option>
+            <option value="pol">Poland</option>
+        </select>
+
+        <br>
+        <input type="text" name="a[b]" value="" placeholder="nic">
+        <input type="text" name="a[c]" value="">
+        <input type="text" name="a[d]" value="3">
+    </form>
+</body>
+</html>

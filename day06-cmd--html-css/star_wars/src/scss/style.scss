@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.flex-container{
+display: flex;
+flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    color:white;
+    text-decoration: none;
+    
+}
+
+.menu a{
+    color:white;
+    text-decoration: none;
+    padding: 1rem;;
+}
+
+.welcome
+    {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    background: lightblue url("../img/welcome.jpg") no-repeat center;
+
+}
+
+.middle
+    {
+    text-align: center;
+    max-width: 50rem;
+    padding: 5rem;
+    font-size: 2rem;
+    }
+
+ .grey{
+        color:lightgray;
+    }
+
+.plot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: lightgray;
+}
+
+.plot_middle{
+        text-align: center;
+        max-width: 50rem;
+        padding: 3rem;
+                }
+
+.plot_article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: lightgray;
+    border: 1px solid red;
+}
+
+.float{
+    text-align: start;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+h2 > .plot_middle{
+    margin-bottom: 3rem;
+}
+
+.characters{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: lightgray url("../img/rey-standing.jpg") no-repeat fixed;
+    }
+
+.characters_heading{
+        text-align: center;
+        max-width: 50rem;
+        padding: 3rem;
+               }
+
+.characters_heading{
+    margin-bottom: 5rem;
+}
+
+.characters_pictures{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    img{border-radius: 100%;
+    }
+}
+
+
+
+
+
+.ratings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: lightgray;
+}
+
+.ratings_contain{
+    text-align: center;
+    max-width: 50rem;
+    padding: 3rem;
+           }
+
+.ratings_heading{
+    margin-bottom: 5rem;
+}
+
+.ratings_chart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imbd_block{
+    background-color: black;
+    width: 40px;
+    height:200px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url('/img/kafe.jpg') center;
+    background-size: cover;
+
+    @media (max-width: 774px){
+        background-position: -200px center;
+    }
+
+    @media (max-width: 470px){
+        
+        background-position: -300px -20vh;
+
+    }
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+
+    @media (max-width: 470px){
+        flex-direction: column;
+}
+}
+
+.column{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 25rem;
+    background-color:rgba(160,82,45,0.3);
+    color:white;
+
+    h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 5rem;
+        font-family: 'Squada One', cursive;
+    }
+
+    p{
+        text-align: center;
+        padding: 2rem;
+    }
+
+    @media (max-width: 470px){
+        flex-basis:1;
+}
+
+}
+
+input{
+    text-align: center;
+    background-color: darkred;
+    border: 1px solid white;
+    padding: 1.5rem;
+    color: white;
+    border-radius: 0.5em;
+
+}
+
+.button{
+    margin: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0.5em;
+    
+}

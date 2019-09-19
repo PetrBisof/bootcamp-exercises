@@ -1,0 +1,41 @@
+h1 {
+    color:purple;
+    margin: auto;
+    width: 320px;
+    font-size: 3em;
+    font-weight: 300;
+    border-bottom: #da1884 solid 5px;
+}
+
+
+body{
+    /* background-color:rgb(192,128,128) světle hnědá ; background-color: rgba(128,0,0,0.5); */
+    background-image: url(./img/pozadi.jpg);
+    font-family: 'Modak', cursive;
+}
+
+
+.picture{
+        /* margin-left: 400px;  */
+        margin: auto;
+        width: 300px;
+        display: block;
+        /* text-align: center; */
+}
+
+.buy{
+    position: absolute;
+    top: 400px;
+    left: 1050px;
+    background-color:rgba(255, 255, 255, 0.5);
+    
+    
+}
+
+
+
+p{
+    margin: auto;
+    width: 400px;
+    color: #da1884;
+}
