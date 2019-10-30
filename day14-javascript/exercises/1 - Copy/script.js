@@ -1,0 +1,1 @@
+const number = prompt('Account number?');

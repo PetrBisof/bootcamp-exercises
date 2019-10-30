@@ -1,0 +1,48 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+/*     align-items: center;
+    align-content:center; */
+    width: 100vw;
+    flex-wrap: wrap;
+
+    
+}
+
+.unicorn{
+    display:block;
+    align-self: center;
+    background-image: url('unicorn.png');
+    background-color: blue;
+    background-repeat: no-repeat;
+    width:300px;
+    height: 40vh;
+}
+
+.unicorn p {
+    position:relative;
+    text-align: center;
+    left: 20vw;
+    background-color: lightgrey;
+    min-height:3rem;
+    border-radius: 2px;
+}
+
+.robot{
+/*     display:block;
+    float:right; */
+    background-image: url('cleverbot.png');
+    background-repeat: no-repeat;
+    width:300px;
+    min-height: 40vh; */
+}
+
+.robot p{
+    text-align: center;
+    position:relative;
+    left: 20vw;
+    background-color: blue;
+    color: white;
+    min-height: 3rem;
+}

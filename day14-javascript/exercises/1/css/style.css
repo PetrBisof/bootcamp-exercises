@@ -1,0 +1,41 @@
+.dice1{
+    width: 30rem;
+    height: 30rem;
+    background: url('./side1.png') center;
+    background-size: cover;
+}
+
+.dice2{
+    width: 30rem;
+    height: 30rem;
+    background: url('./side2.png') center;
+    background-size: cover;
+}
+
+.dice3{
+    width: 30rem;
+    height: 30rem;
+    background: url('./side3.png') center;
+    background-size: cover;
+}
+
+.dice4{
+    width: 30rem;
+    height: 30rem;
+    background: url('./side4.png') center;
+    background-size: cover;
+}
+
+.dice5{
+    width: 30rem;
+    height: 30rem;
+    background: url('./side5.png') center;
+    background-size: cover;
+}
+
+.dice6{
+    width: 30rem;
+    height: 30rem;
+    background: url('./side6.png') center;
+    background-size: cover;
+}

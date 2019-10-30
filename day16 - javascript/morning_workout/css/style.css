@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    }
+
+.menu{
+    display:flex;
+    width: 15rem;
+    height: 100vh;
+    background-color: blue;
+    color: white;
+}
+
+.none{
+    background-color: white;
+    width: 100%;
+}
+
+.menu_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    width: 4rem;
+    background-image: url('menu.svg');
+    background-repeat: no-repeat;
+}
